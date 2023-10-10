@@ -1,0 +1,14 @@
+{
+  "name": "account-notifier",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^3.0.7",
+    "next": "^13.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.27"
+  }
+}
