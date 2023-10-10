@@ -5,8 +5,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@slack/web-api": "^6.9.0",
     "@vercel/node": "^3.0.7",
-    "next": "^13.5.4"
+    "bufferutil": "^4.0.7",
+    "next": "^13.5.4",
+    "supports-color": "^8.1.1"
   },
   "devDependencies": {
     "@types/react": "18.2.27"
