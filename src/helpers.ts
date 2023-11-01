@@ -29,4 +29,10 @@ export function hasValidSignature(signature: string, payload: string) {
     return signature === hmac
 }
 
-export const isOutgoing = (address) => ADDRESS_LIST.findIndex((a) => a === address) > -1;
+export const isOutgoing = (address) => {
+    const index = ADDRESS_LIST.findIndex((a) => a === address);
+    return {
+        found: index > -1,
+        index
+    }
+};
