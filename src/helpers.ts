@@ -30,7 +30,7 @@ export function hasValidSignature(signature: string, payload: string) {
 }
 
 export const isOutgoing = (address) => {
-    const index = ADDRESS_LIST.findIndex((a) => a === address);
+    const index = ADDRESS_LIST.findIndex((a) => a.toLowerCase() === address);
     return {
         found: index > -1,
         index
