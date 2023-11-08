@@ -10,8 +10,9 @@ Index:
 
 1. [Setting up local environment](#local-environment)
 2. [Alchemy webhook configuration](#webhook-configuration)
-3. [Deployment](#deployment)
-4. [Contributing](#contributing)
+3. [Slack bot configuration](#slack-configuration)
+4. [Deployment](#deployment)
+5. [Contributing](#contributing)
 
 ## Local Environment
 
@@ -118,6 +119,14 @@ Check this [guide](https://docs.alchemy.com/reference/notify-api-quickstart#test
 This notifier uses the Alchemy [Address Activity Webhook](https://docs.alchemy.com/reference/address-activity-webhook).
 
 Please visit [this guide](https://docs.alchemy.com/reference/address-activity-webhook#how-to-set-up-address-activity-webhook) to see how to setup a new webhook. Consider using the [webhook api](https://docs.alchemy.com/reference/create-webhook) to quickly create the webhooks for the array of addresses in just one HTTP request.
+
+## Slack Configuration
+
+Visit [this guide](https://api.slack.com/authentication/token-types#bot) to get your `SLACK_BOT_TOKEN`.
+
+To find the `SLACK_CHANNEL_ID` open slack in the browser and extract the URL segment that start with C and letters.
+
+      https://app.slack.com/client/T_____/C_____
 
 ## Deployment
 
